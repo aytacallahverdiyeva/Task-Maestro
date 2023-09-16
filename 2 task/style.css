@@ -243,17 +243,99 @@ figcaption{
 .learn-more-btn{
     margin-top: 19px;
     width: 160px;
-height: 50px;
-border-radius: 100px;
-background: var(--action-primary, #25DAC5);
-padding: 12px 32px;
-color: var(--colors-white, #FFF);
-text-align: center;
-font-size: 18px;
-font-weight: 500;
-line-height: 26px; 
+    height: 50px;
+    border-radius: 100px;
+    background: var(--action-primary, #25DAC5);
+    padding: 12px 32px;
+    color: var(--colors-white, #FFF);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px; 
 }
 
 
 /* ? SECTION FEATURE_15 ======================== */
+.left-part{
+    margin-top: 146px;
+    margin-left: 215px;
+}
+.left-part-h{
+    color: var(--colors-heading, #1E0E62);
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 52px; 
+    letter-spacing: 1.5px;
+    width: 443px;
+}
+.left-part-p{
+    margin-top: 30px;
+    color: var(--colors-text, rgba(21, 20, 57, 0.40));
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 32px; 
+    width: 330px;
+}
+.left-bottom-1, .left-bottom-2{
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+}
+.left-part-icon{
+    margin-right: 15px;
+}
+.left-part-h4{
+    color: var(--colors-heading, #1E0E62);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px; 
+}
+.left-bottom-p{
+    margin-top: 14px;
+    color: var(--colors-text, rgba(21, 20, 57, 0.40));
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+    width: 340px;
+}
+.container-three{
+    display: flex;
+}
+.black-iphone{
+    margin-top: 130px;
+    margin-left: 180px;
+    position: absolute;
+    z-index: 2;
+}
+.right-part{
+    position: relative;
+}
 
+.black-iphone-screen{
+    position: absolute;
+    top: 150px;
+    left: 204px;
+    z-index: 1;
+}
+.white-iphone{
+    z-index: 3;
+    position: absolute;
+    top: 191px;
+    left: 50px;
+}
+.white-iphone-screen{
+    z-index: 2;
+    position: absolute;
+    top: 210px;
+    left: 70px;
+}
+.shadow1{
+    position: absolute;
+    top: 785px;
+    left: 90px;
+}
+.shadow2{
+    position: absolute;
+    top: 804px;
+    left: -60px;
+}
