@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- ? Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>To Do List</h1>
+        <div class="input-container">
+            <div class="labelContainer">
+                <label for="taskInput">Title</label> <br>
+                <input type="text" id="taskInput">    
+            </div>
+            <div class="labelContainer">
+                <label for="prioritySelect">Priority</label> <br>
+                <select id="prioritySelect">
+                    <option value="low">Low</option>
+                    <option value="medium">Medium</option>
+                    <option value="high">High</option>
+                </select>    
+            </div>
+            <button onclick="addTask()">Add new +</button>
+        </div>
+        <ul id="taskList"></ul>
+    </div>
+    <!-- ? Js -->
+    <script src="./main.js"></script>
+</body>
+</html>
